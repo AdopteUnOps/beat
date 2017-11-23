@@ -11,4 +11,6 @@ ADD dashboard /tmp/dashboard
 
 ADD install.sh /tmp/install.sh
 
+USER packetbeat
+
 CMD ["/tmp/install.sh"]
